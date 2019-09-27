@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+    production: false,
+    firebaseConfig: {
+        apiKey: 'AIzaSyBaaqUEfGPfnmpsPWHUYmD_myo2MQG5RTs',
+        authDomain: 'stockcheck-app.firebaseapp.com',
+        databaseURL: 'https://stockcheck-app.firebaseio.com',
+        projectId: 'stockcheck-app',
+        storageBucket: 'stockcheck-app.appspot.com',
+        messagingSenderId: '717772510387',
+        appId: '1:717772510387:web:3b5dd89f2f215f78',
+        vapidKey:
+            'BEdPjtgNKH2GZ3lYG4LLD41lIbzqYxfeG9MUXXjk0y6pjnHn9LrnuJ2TDUlgqwGjFfhVAHtsixidd2-Fqe2513w'
+    }
 };
 
 /*
